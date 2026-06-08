@@ -1,7 +1,7 @@
 # ETAMU-binary-systems
 
 ## Project description
-A graduate research log for exoplanets within binary systems, at East Texas A&amp;M University. The goal is to use machine learning to classify the stability of exoplanet orbits within binary star systems.
+A graduate research log for exoplanets within binary systems, at East Texas A&amp;M University. The goal of this project is to use machine learning to classify the stability of exoplanet orbits within binary star systems.
 
 ## People
 

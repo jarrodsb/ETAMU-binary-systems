@@ -11,9 +11,9 @@ A graduate research log for exoplanets within binary systems, at East Texas A&am
 
 ## Folder structure
 
+- `figures/`: saved plots and diagrams
 - `logs/`: daily research logs and meeting notes
 - `notebooks/`: exploratory analysis notebooks
 - `scripts/`: reusable Python scripts
 - `data/raw/`: original data files
 - `data/processed/`: cleaned or derived data files
-- `figures/`: saved plots and diagrams

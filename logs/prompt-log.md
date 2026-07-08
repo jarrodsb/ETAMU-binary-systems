@@ -13,7 +13,8 @@ Purpose:
 - 
 
 Prompt text:
-```As a physics graduate student, I want to use machine learning to predict the stability of planetary orbits in binary star systems.
+```text
+As a physics graduate student, I want to use machine learning to predict the stability of planetary orbits in binary star systems.
 The package that I seek to use as a template (either directly or inspirationally) is called SPOCK, whose primary features are summarized
  in the README section of the following GitHub page: https://github.com/dtamayo/spock. The core functionality of SPOCK is orbital stability
  prediction of planets, which is described in the paper readable at the following link: https://www.pnas.org/doi/full/10.1073/pnas.2001258117.
@@ -46,3 +47,5 @@ Reusable version:
 
 Cautions:
 - 
+
+---

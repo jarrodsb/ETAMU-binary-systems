@@ -31,10 +31,10 @@ Input or sources provided:
 - https://saturnaxis.github.io/exoplanet-binary/Tutorials/three-body-stability.html
 
 Output used:
-- 
+- Serves as a useful reference to return to, and informed further AI prompts.
 
 What worked well:
-- Provided a concise summary of the relevant topics associated with the machine learning project I seek to implement, and suggested next steps.
+- Provided a concise summary of the relevant topics associated with the machine learning project that I seek to implement, and suggested next steps.
 
 What did not work:
 - Claude may have failed to access the full text of the Tamayo et al. 2020 paper at pnas.org, and may have relied solely on the abstract of the paper available on arXiv.
@@ -42,10 +42,10 @@ What did not work:
 
 Reusable version:
 ```text
-
+N/A
 ```
 
 Cautions:
-- 
+- This prompt is not necessarily expected to be repeated / intended to be reused. (But I nonetheless thought it was important to document.)
 
 ---

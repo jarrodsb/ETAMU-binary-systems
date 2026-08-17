@@ -1,1 +1,4 @@
-Random Forest Prototype
+# Random Forest Prototype
+
+## Contributors:
+- Jarrod Bieber

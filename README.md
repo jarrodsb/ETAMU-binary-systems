@@ -17,3 +17,4 @@ A graduate research log for exoplanets within binary systems, at East Texas A&am
 - `scripts/`: reusable Python scripts
 - `data/raw/`: original data files
 - `data/processed/`: cleaned or derived data files
+- 'rfc_prototype/': Random Forest Prototype project

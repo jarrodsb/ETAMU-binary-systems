@@ -8,7 +8,6 @@ from .feature_extraction import compute_features
 class FeatureClassifier:
     def __init__(self, model_path=None):
         if model_path is None:
-            #model_path = files("your_package_name.models").joinpath("rfc_stype_2planet.joblib")
             model_path = files("rfc_prototype.models").joinpath("rfc_stype_2planet.joblib")
         self.model = joblib.load(model_path)
 
@@ -21,9 +20,11 @@ class FeatureClassifier:
 
         # Convert features dictionary to a format suitable for the model
         feature_df = pd.DataFrame([features])
-        display(feature_df.head())
+        print(f"Before rearrange: {feature_df} ")
+        feature_df = feature_df[self.model.feature_names_in_]
+        print(f"After rearrange: {feature_df} ")
 
-        X = np.array(features).reshape(1, -1)
+        #X = np.array(features).reshape(1, -1)
         #return self.model.predict_proba(X)[0, 1]
 
         prediction_probability = 0
@@ -31,6 +32,7 @@ class FeatureClassifier:
         if self.model:
             # Ensure feature order and preprocessing match training data
             #prediction_probability = self.model.predict_proba(feature_df[self.feature_columns])[:, 1][0]
-            prediction_probability = self.model.predict_proba(X)[0, 1]
+            #prediction_probability = self.model.predict_proba(X)[0, 1]
+            prediction_probability = self.model.predict_proba(feature_df)[0, 1]
 
         return prediction_probability

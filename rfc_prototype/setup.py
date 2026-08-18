@@ -1,5 +1,6 @@
 # writefile rfc_prototype/setup.py
 
+import os
 from setuptools import setup, find_packages
 
 setup(

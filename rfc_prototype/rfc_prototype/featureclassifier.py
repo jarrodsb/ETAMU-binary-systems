@@ -9,7 +9,7 @@ class FeatureClassifier:
     def __init__(self, model_path=None):
         if model_path is None:
             #model_path = files("your_package_name.models").joinpath("rfc_stype_2planet.joblib")
-            model_path = files("rfc_prototype/models").joinpath("rfc_stype_2planet.joblib")
+            model_path = files("rfc_prototype.models").joinpath("rfc_stype_2planet.joblib")
         self.model = joblib.load(model_path)
 
     def predict_stable(self, sim: rebound.Simulation, mu: float, e_bin: float) -> float:

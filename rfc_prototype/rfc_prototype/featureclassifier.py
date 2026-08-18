@@ -21,14 +21,16 @@ class FeatureClassifier:
 
         # Convert features dictionary to a format suitable for the model
         feature_df = pd.DataFrame([features])
+        display(feature_df.head())
 
-        #X = np.array(features).reshape(1, -1)
+        X = np.array(features).reshape(1, -1)
         #return self.model.predict_proba(X)[0, 1]
 
         prediction_probability = 0
 
         if self.model:
             # Ensure feature order and preprocessing match training data
-            prediction_probability = self.model.predict_proba(feature_df[self.feature_columns])[:, 1][0]
+            #prediction_probability = self.model.predict_proba(feature_df[self.feature_columns])[:, 1][0]
+            prediction_probability = self.model.predict_proba(X)[0, 1]
 
         return prediction_probability

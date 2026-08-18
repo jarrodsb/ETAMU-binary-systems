@@ -46,8 +46,8 @@ def compute_features(sim: rebound.Simulation, mu: float, e_bin: float) -> dict:
     """
 
     # Initialize MEGNO if not already done
-    if not sim.megno_initialized:
-        sim.init_megno()
+    #if not sim.megno_initialized:
+    sim.init_megno()
 
     # Get initial planetary parameters (needed for features and normalizations)
     a_p1_initial = sim.particles[2].a

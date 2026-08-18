@@ -14,7 +14,8 @@ setup(
         'scikit-learn==1.6.1', # Pin version for reproducibility
         'numpy>=1.19.5',
         'joblib>=1.2.0',
-        'pandas'
+        'pandas',
+        'matplotlib'
     ],
     package_data={
         'rfc_prototype': ['models/*.joblib', 'data/*.csv']

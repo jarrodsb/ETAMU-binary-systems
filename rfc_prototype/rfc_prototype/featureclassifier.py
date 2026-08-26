@@ -15,8 +15,11 @@ class FeatureClassifier:
         if sim.N - 1 > 3:  # star + binary companion + up to 2 planets
             raise ValueError("This model supports at most 2 planets around the primary.")
 
+        # Creates a copy of the Rebound simulation, so that the original doesn't get mutated during feature extraction
+        sim_copy = sim.copy()
+
         # Extract features from the simulation
-        features = compute_features(sim, mu, e_bin)
+        features = compute_features(sim_copy, mu, e_bin)
 
         # Convert features dictionary to a format suitable for the model
         feature_df = pd.DataFrame([features])

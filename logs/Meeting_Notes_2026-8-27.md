@@ -21,7 +21,7 @@
 - Remove MEGNO, it's too ambiguous of a feature for training our SPOCK-like model
 - Keep project on local machine for now, instead of GitHub. uploading things to ETAMU OneDrive is okay for sharing
 - We want to use XGBoost classifier like SPOCK uses
-- AI usage for this research project should be done entirely in Temporary Mode, etc. so that whichever LLM I use doesn't train on my research
+- AI usage for this research project should be done entirely in Temporary Mode, etc. so that whichever LLM I use doesn't train on my research (and potentially provide a path for others to use the AI to copy my work)
 
 ## Questions or confusion
 

@@ -12,7 +12,7 @@
 
 ## Decisions made
 
-- 
+- The next step is for me to try to better understand the feature set that Gemini assembled to train the models in my experimental notebooks
 
 ## Questions or confusion
 

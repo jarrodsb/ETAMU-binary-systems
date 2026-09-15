@@ -1,4 +1,4 @@
-# Meeting Notes: YYYY-MM-DD
+# Meeting Notes: 2026-09-03
 
 ## People present
 

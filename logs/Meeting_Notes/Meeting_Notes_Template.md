@@ -27,7 +27,7 @@
 
 ## Next meeting or deadline
 
-- 2026-9-XX
+- 2026-10-XX
 
 ## Next steps before the next meeting
 

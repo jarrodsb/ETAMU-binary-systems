@@ -1,8 +1,9 @@
-# Meeting Notes: YYYY-MM-DD
+# Meeting Notes: 2026-MM-DD
 
 ## People present
 
-- 
+- Jarrod Bieber
+- Dr. Billy Quarles
 
 ## Main topics discussed
 
@@ -22,11 +23,11 @@
 
 ## Tasks assigned to others
 
-- 
+- N/A
 
 ## Next meeting or deadline
 
-- 
+- 2026-9-XX
 
 ## Next steps before the next meeting
 

@@ -14,7 +14,7 @@
 
 ## Decisions made
 
-- We want to expand the models to 
+- We want to expand the models to include all inclinations from 0 to 180 degrees. (Spanning all four panels published in Quarles et al. 2020 Figure 7, and inclinations in between.)
 
 ## Questions or confusion
 
@@ -22,7 +22,8 @@
 
 ## Tasks assigned to me
 
-- 
+- Start to introduce inclination to the models. We want to train and predict more inclinations than the 4 "rows" that are published in Quarles et al. 2020 Fig. 7 (0, 30, 45, 180 degs.).
+
 
 ## Tasks assigned to others
 
@@ -34,4 +35,5 @@
 
 ## Next steps before the next meeting
 
-- 
+- Prepare a script that generates a new dataset of 10,000-orbit REBOUND simulations with densely sampled $\mu$, $e_{\rm bin}$, and planetary inclination angles $i_p$.
+- Prepare a new version of the notebook that ingests the new dataset and tests its $a_c$ prediction ability against the four published plots of Quarles et al. 2020 Figure 7.

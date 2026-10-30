@@ -12,7 +12,7 @@
 
 ## Decisions made
 
-- Our main research phase will conclude by around February, and I will start writing up a paper around that time.
+- Our main research phase will conclude by around February, and I will start writing up a paper of my findings around that time.
 - We need to find some useful element or procedure to include in my paper, other than the main scientific finding, that may be able to boost my paper's citation count over time.
 
 ## Questions or confusion
